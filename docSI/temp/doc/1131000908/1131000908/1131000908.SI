@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE 線上簽核 SYSTEM "104_sign_utf8.dtd"[]>
+<線上簽核 Id="Si">
+  <線上簽核流程 Id="FlowInfo">
+    <簽核流程 Id="Flow_1131000908_0_0" 異動別="送件" />
+    <簽核流程 Id="Flow_1131000908_8_0" 異動別="決行" />
+    <簽核流程 Id="Flow_1131000908_13_0" 異動別="送歸檔" />
+  </線上簽核流程>
+  <線上簽核資訊 Id="Sol">
+    <簽核點定義 URI="#Flow_1131000908_0_0" Id="SignStep_1131000908_0_0">
+      <Signature Id="Sign_1131000908_0_0">
+        <SignedInfo>
+          <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+          <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+          <Reference URI="1131000908_M1131000908_0_0.di">
+            <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+            <DigestValue>w9uECkua9qPo7XruU5FQZqJZI3pNnYgDpRsepvlEllQ=</DigestValue>
+          </Reference>
+          <Reference URI="1131000908_00638701716431832698d7573ec6-ff8b-4e43-a774-be52c58221c1_0_0.pdf">
+            <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+            <DigestValue>Ncv40A15hUg/95OtBsVqckpBIsrpvdp/Nn2gJ5+TM08=</DigestValue>
+          </Reference>
+          <Reference URI="1131000908_006387017164321457754fb39b15-6f1b-465b-a086-e5f25e79df14_0_0.pdf">
+            <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+            <DigestValue>ZBVLzjg7xER2aXPsvi7MJANT7Ho2rr7oO3SEqIh5qcw=</DigestValue>
+          </Reference>
+          <Reference URI="#Object_1131000908_0_0">
+            <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+            <DigestValue>+HTbci3ZSp5DTkMb0XYBtpAyZptIrRrblkwR+5cjTrs=</DigestValue>
+          </Reference>
+        </SignedInfo>
+        <SignatureValue>OYbhN3bpkfuLsQ2Zjlh//80+zNRvM4uxCpavBBEThiLF+ODEnGQFFuUdn2OAu+ddDtBGla4EsgtMB5P9aHBej09K6Yw8B57RzyZZRFX5GPwPN7QBZIQN2QJH8ZqXujVjXYtnERFqjzI9ZwuBAFAcvG3CNeGxUeEvwvcdUZam86ljZzLG/ppKKpxQI+Eh4DVkLjvS4A33YtzNWFdNldp7kBJM75v3yBCTHnaSmIfpVkyhDQ8PCgsAPsVvJogYt2C1vnnu+VKJ0jkIOemuHqyUDEeZvmy3XTn9FtBRDEm+cRxV/XpcGhR7RILXj8ZmOOhhtvVt98qCU5208Vw33k3Oxw==</SignatureValue>
+        <KeyInfo>
+          <X509Data>
+            <X509Certificate>MIIFuzCCA6OgAwIBAgIRAIPmLbL98UYlRWxLDY5l9KIwDQYJKoZIhvcNAQELBQAwRzELMAkGA1UEBhMCVFcxEjAQBgNVBAoMCeihjOaUv+mZojEkMCIGA1UECwwb5YWn5pS/6YOo5oaR6K2J566h55CG5Lit5b+DMB4XDTI0MTIxNjA3NTIxNloXDTI5MTIxNjE1NTk1OVowPDELMAkGA1UEBhMCVFcxEjAQBgNVBAMMCem7g+afj+emjjEZMBcGA1UEBRMQMDAwMDAwMDExMzM3NjI4ODCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKOmJ4ohRzYDiaF5xW1c0edDEKxq8PifsgH85Ya9CQWd08pRh3UamL685olGepIbGDAjdpP4vivic5bo2sectg5KqdvTTKqt0x7FbVCiRt+Dia4MQwQomuY1Izm4AaxZmmwa12vSJDJoBUySmR1Yfj3eWaWD2xQRpB1nrJnzqBIf9YDMXJJslJEg1IZwpZeMS6BEbhP4r8sEIb87t7/aI2qmw3R3zA9nBTfNguPI1v07hJ4LgWSPpZvMbDmBGlKCS5kmIXl+Twyq+2hk6aIr8Dv/eTDdJOZBeVUb8iCD1LFHXD8fDXuFzYsF8ycihSehM08SlAD5VHnuQVp/0MsPQ2cCAwEAAaOCAaswggGnMB8GA1UdIwQYMBaAFEcgo7EmS81tSKzyZAiGlyx0VBFfMB0GA1UdDgQWBBSA/4r9Ss3SQQOjp4H66Nd+DMT1KjAOBgNVHQ8BAf8EBAMCB4AwFAYDVR0gBA0wCzAJBgdghnZlAAMDMDMGA1UdCQQsMCowFQYHYIZ2AWQCATEKBghghnYBZAMBATARBgdghnYBZAIzMQYMBDIwMjUwgYAGA1UdHwR5MHcwOKA2oDSGMmh0dHA6Ly9jcmwtbW9pY2EubW9pLmdvdi50dy9jcmwvTU9JQ0EtRzMtMTAtMzEuY3JsMDugOaA3hjVodHRwOi8vY3JsLW1vaWNhLm1vaS5nb3YudHcvY3JsL01PSUNBLUczLWNvbXBsZXRlLmNybDCBhgYIKwYBBQUHAQEEejB4MEcGCCsGAQUFBzAChjtodHRwOi8vbW9pY2EubmF0Lmdvdi50dy9yZXBvc2l0b3J5L0NlcnRzL0lzc3VlZFRvVGhpc0NBLnA3YjAtBggrBgEFBQcwAYYhaHR0cDovL29jc3AtbW9pY2EubW9pLmdvdi50dy9PQ1NQMA0GCSqGSIb3DQEBCwUAA4ICAQAxV9FVrl721iYLuOmhugg81oimrxeQGNtaXuGp6WPArNojvPAGdxTO98nb0S3MvU3ej5PTFenkdmIfbOjNcPaI3R4DVFW3LzSFKQAIEvDQu+0X0vpTtseLkRzYSbcJCd5XdRCI81qx4jUPBRzS97zN5trrQ08g0R87U1ifzbiRr8PuVUivdNg+13cNcIxSxOseGV69cIcnWZNd1LZyACJeiAswpo1vgo/IK3HYhjsNs5eJSU0RZSkeI8GLGp9LpAjrsC9rbmFvsxNKAsJvqMLeXXiZfMnEGR50eotLyQ2AIy+7kFVVZ7QVRr0TzFol4Tt5gF7kyclrFPfzCeo+LFl3oBMYIqWjzh+tckprf2IZPa1IdURIzK66NnjYPodpU4+smJ2UVWBB7LDl8NTimaNsbHk2Aoe+DNo7AuVvRuGzaE8bqTDR0UpZkVD91uqc0XKkyDYCe33Wyvq0FkvwMzTvo2bZNae83mycJ6fNZ1grFSXOeavUHhrw7d+SpRnOSYugi+VPqm49Eu3+CQsUfygtHVwDdRH/Kzrsy9/1YkDdn7BY7Z8D5wd+omyUlZle4gEfUT0V2cUmF+pPMn9a5XPd8bH+n65de14tTFXmooZT/37BBaeAMrA5omshAN/U5JqEnfKQKpFWUSW04flITOo5uyQ4D6VHpdKn8ghFxBV0zg==</X509Certificate>
+          </X509Data>
+        </KeyInfo>
+      </Signature>
+      <Object Id="Object_1131000908_0_0">
+        <異動資訊>
+          <簽核人員>
+            <機關>
+              <全銜>環境部</全銜>
+            </機關>
+            <單位>行政資訊資安科</單位>
+            <職稱>分析師</職稱>
+            <姓名>黃柏禎</姓名>
+            <帳號>bojhen.huang</帳號>
+            <角色>分析師</角色>
+          </簽核人員>
+          <異動別>送件</異動別>
+          <簽章時間>11312191500</簽章時間>
+          <次位簽核人員>
+            <簽核人員>
+              <機關>
+                <全銜>環境部</全銜>
+              </機關>
+              <單位>行政資訊資安科</單位>
+              <職稱>科長</職稱>
+              <姓名>江易道</姓名>
+              <帳號>yidao.chiang</帳號>
+              <角色>科長</角色>
+            </簽核人員>
+          </次位簽核人員>
+        </異動資訊>
+        <簽核資訊>
+          <簽核文件夾 Id="SIGN_FOLDER_1131000908_0_0" 產生時間="11312191500">
+            <簽核文稿清單 文稿數="1">
+              <文稿 文件夾識別碼="101" 物件識別碼="2" 類型="簽" 產生點資訊="SignStep_1131000908_0_0" 原始檔序號="0" 序號="0" 產生時間="11312191500">
+                <名稱>簽</名稱>
+                <文稿類型>簽</文稿類型>
+                <附件清單 附件數="2">
+                  <附件 文件夾識別碼="102" 物件識別碼="101" 格式="PDF" 序號="0" 產生時間="11312191500">
+                    <名稱>1_公共程式提交附件案例.pdf</名稱>
+                    <附件類型>PDF</附件類型>
+                    <電子檔格式附件 原始檔序號="1" 會辦附件="N" 參考附件="Y" />
+                  </附件>
+                  <附件 文件夾識別碼="103" 物件識別碼="101" 格式="PDF" 序號="1" 產生時間="11312191500">
+                    <名稱>2_受款人清單_公務預算_113A01061400101.pdf</名稱>
+                    <附件類型>PDF</附件類型>
+                    <電子檔格式附件 原始檔序號="2" 會辦附件="N" 參考附件="Y" />
+                  </附件>
+                </附件清單>
+              </文稿>
+            </簽核文稿清單>
+            <檔案清單 檔案數="3">
+              <電子檔案資訊 文件夾識別碼="104" 物件識別碼="4" 原始檔序號="0" 序號="0" 產生時間="11312191500">
+                <檔案名稱>1131000908_M1131000908_0_0.di</檔案名稱>
+                <檔案大小>1618</檔案大小>
+                <檔案格式>DI</檔案格式>
+              </電子檔案資訊>
+              <電子檔案資訊 文件夾識別碼="105" 物件識別碼="4" 原始檔序號="1" 序號="1" 產生時間="11312191500">
+                <檔案名稱>1131000908_00638701716431832698d7573ec6-ff8b-4e43-a774-be52c58221c1_0_0.pdf</檔案名稱>
+                <檔案大小>17823</檔案大小>
+                <檔案格式>PDF</檔案格式>
+              </電子檔案資訊>
+              <電子檔案資訊 文件夾識別碼="106" 物件識別碼="4" 原始檔序號="2" 序號="2" 產生時間="11312191500">
+                <檔案名稱>1131000908_006387017164321457754fb39b15-6f1b-465b-a086-e5f25e79df14_0_0.pdf</檔案名稱>
+                <檔案大小>83856</檔案大小>
+                <檔案格式>PDF</檔案格式>
+              </電子檔案資訊>
+            </檔案清單>
+          </簽核文件夾>
+        </簽核資訊>
+      </Object>
+    </簽核點定義>
+    <簽核點定義 URI="#Flow_1131000908_8_0" Id="SignStep_1131000908_8_0">
+      <Signature Id="Sign_1131000908_8_0">
+        <SignedInfo>
+          <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+          <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+          <Reference URI="1131000908_M1131000908_0_8.di">
+            <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+            <DigestValue>w9uECkua9qPo7XruU5FQZqJZI3pNnYgDpRsepvlEllQ=</DigestValue>
+          </Reference>
+          <Reference URI="1131000908_00638701716431832698d7573ec6-ff8b-4e43-a774-be52c58221c1_0_0.pdf">
+            <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+            <DigestValue>Ncv40A15hUg/95OtBsVqckpBIsrpvdp/Nn2gJ5+TM08=</DigestValue>
+          </Reference>
+          <Reference URI="1131000908_006387017164321457754fb39b15-6f1b-465b-a086-e5f25e79df14_0_0.pdf">
+            <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+            <DigestValue>ZBVLzjg7xER2aXPsvi7MJANT7Ho2rr7oO3SEqIh5qcw=</DigestValue>
+          </Reference>
+          <Reference URI="#Object_1131000908_8_0">
+            <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+            <DigestValue>dxpdii819opGCdoSw5mnjbuNL/iVFiyA7foa6eCwdUo=</DigestValue>
+          </Reference>
+          <Reference URI="#SignStep_1131000908_0_0">
+            <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+            <DigestValue>8yQZZyWMr7GCzt84sQLJfHgtVJ+Hsrn4fAtDOzFSkQU=</DigestValue>
+          </Reference>
+        </SignedInfo>
+        <SignatureValue>MTymKfZbJQ17lUxAPe99oj0K0jpvcgr1psUAuS1i+b52NtLv94zBDN7NteAFXUQ5tTtCC/R05IBD7LC5YKEtICNfvgGD4MKxHCXDXnhHShpvtM3UyxLRaoum+aGbSPlbW7moPoW08e+c0ybqZdx01QPtWeAuhjAlyAs5Bn8PjixDTYZXVRa7r/j9HDFNSVc+saQRviwlW/F15cRJGTjfyRVjXmqJkM9wpPcyHBlXH8YlHCCRF+mTmGTQGosgGyP990TSO00g5eyVzO3syAYrfF+Nvtci2ZzObs+uoaVeg7Jgz5mgg/XXqCh1hDZVD7mlfD6cZpndclArYC3mTNisGg==</SignatureValue>
+        <KeyInfo>
+          <X509Data>
+            <X509Certificate>MIIDWjCCAkKgAwIBAgIQHHRSEhiSlqZP9CY9Ag5wRzANBgkqhkiG9w0BAQsFADBHMQswCQYDVQQGEwJUVzESMBAGA1UECgwJ55Kw5aKD6YOoMSQwIgYDVQQDDBvnkrDlooPpg6jmhpHorYnnrqHnkIbkuK3lv4MwHhcNMjMwNzI0MDUxNjM1WhcNMjQwNzI0MDUzNjM1WjBHMQswCQYDVQQGEwJUVzESMBAGA1UECgwJ55Kw5aKD6YOoMSQwIgYDVQQDDBvnkrDlooPpg6jmhpHorYnnrqHnkIbkuK3lv4MwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCgWibWOQHIx1bMCyR/4STkKAALt4rFiNbOH4+S2EavRuaDllz5aLODQKMMPFwYqzINxfEc5iKs9rEqnGHxAoRZswllUlckBXXt67wqTZ3KzsTZnX9WXoamF/Il5E2RyzthuhQuQqiG84mawgE8MecBHgcuNMqiudI1LsAzIzKGGLNSGBsgudlsA7Pt+hzJVBN/8NLMUhmCI1ObdXMQ278t0YaO7HcentXdjrrYyPWFVRt/MfxUlLw10dsrD1Hb+pTzBnkE8B0xhFZ7kCIOOm+gS5nnRbun+vKrd6e/P638/QT9xzTXDeNqMWawYh0yzVGSKPaXYyHwyhCm7TIDKN/lAgMBAAGjQjBAMA4GA1UdDwEB/wQEAwIBhjAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBThQkyNKEGJmo3xow8Nrze5lTutVjANBgkqhkiG9w0BAQsFAAOCAQEAaKQhE/F4/EXLMz48Esw6zyjQgTPV/SoMch3FX8NEXm8RQyTjYI0XDU2MxZpzJp1qitcrqGMeJjJmsJdmrqvxODy5tl4Kiq9nKD6xqCDD0goNYXIAUdpGteNPjiYnnV0WrwS8vSs1JXULAuIoGYCg1y7M0nxvfV/sNEwmhx/UsGL43BxbJ+mpnTr6vOe/apYfwQdOeCVRk/N3ueoJaMDdLzjYHyGs508ZhufOfVp36fVTu/b5wNNxm60i/j1IeKztZnJk0m2Lf+raCwub1obsvDvEUELslKMQ/nlpIIkDK+4GCYcBxB7rmFCzsTQOFBqOWF6f3KoZMf2K5Tua1toHug==</X509Certificate>
+          </X509Data>
+        </KeyInfo>
+      </Signature>
+      <Object Id="Object_1131000908_8_0">
+        <異動資訊 借卡="Y">
+          <簽核人員>
+            <機關>
+              <全銜>環境部</全銜>
+            </機關>
+            <單位>行政資訊資安科</單位>
+            <職稱>科長</職稱>
+            <姓名>江易道</姓名>
+            <帳號>yidao.chiang</帳號>
+            <角色>科長</角色>
+          </簽核人員>
+          <異動別>決行</異動別>
+          <簽核意見 URI="3">如擬</簽核意見>
+          <簽章時間>11312191504</簽章時間>
+          <次位簽核人員>
+            <簽核人員>
+              <機關>
+                <全銜>環境部</全銜>
+              </機關>
+              <單位>監測資訊司</單位>
+              <職稱>專門委員</職稱>
+              <姓名>陳信雄</姓名>
+              <帳號>sschen</帳號>
+              <角色>專門委員</角色>
+            </簽核人員>
+          </次位簽核人員>
+          <借卡 Id="Bor_1131000908_8_0">
+            <借卡日期>11312191504</借卡日期>
+            <借卡原因>未帶卡</借卡原因>
+          </借卡>
+        </異動資訊>
+        <簽核資訊>
+          <簽核文件夾 Id="SIGN_FOLDER_1131000908_8_0" 產生時間="11312191504">
+            <簽核文稿清單 文稿數="1">
+              <文稿 文件夾識別碼="107" 物件識別碼="2" 類型="簽" 產生點資訊="SignStep_1131000908_8_0" 原始檔序號="3" 序號="1" 產生時間="11312191504">
+                <名稱>簽</名稱>
+                <文稿類型>簽</文稿類型>
+                <附件清單 附件數="2">
+                  <附件 文件夾識別碼="108" 物件識別碼="107" 格式="PDF" 序號="0" 產生時間="11312191504">
+                    <名稱>1_公共程式提交附件案例.pdf</名稱>
+                    <附件類型>PDF</附件類型>
+                    <電子檔格式附件 原始檔序號="4" 會辦附件="N" 參考附件="Y" />
+                  </附件>
+                  <附件 文件夾識別碼="109" 物件識別碼="107" 格式="PDF" 序號="1" 產生時間="11312191504">
+                    <名稱>2_受款人清單_公務預算_113A01061400101.pdf</名稱>
+                    <附件類型>PDF</附件類型>
+                    <電子檔格式附件 原始檔序號="5" 會辦附件="N" 參考附件="Y" />
+                  </附件>
+                </附件清單>
+              </文稿>
+            </簽核文稿清單>
+            <檔案清單 檔案數="3">
+              <電子檔案資訊 文件夾識別碼="110" 物件識別碼="4" 原始檔序號="3" 序號="3" 產生時間="11312191504">
+                <檔案名稱>1131000908_M1131000908_0_8.di</檔案名稱>
+                <檔案大小>1618</檔案大小>
+                <檔案格式>DI</檔案格式>
+              </電子檔案資訊>
+              <電子檔案資訊 文件夾識別碼="111" 物件識別碼="4" 原始檔序號="4" 序號="4" 產生時間="11312191500">
+                <檔案名稱>1131000908_00638701716431832698d7573ec6-ff8b-4e43-a774-be52c58221c1_0_0.pdf</檔案名稱>
+                <檔案大小>17823</檔案大小>
+                <檔案格式>PDF</檔案格式>
+              </電子檔案資訊>
+              <電子檔案資訊 文件夾識別碼="112" 物件識別碼="4" 原始檔序號="5" 序號="5" 產生時間="11312191500">
+                <檔案名稱>1131000908_006387017164321457754fb39b15-6f1b-465b-a086-e5f25e79df14_0_0.pdf</檔案名稱>
+                <檔案大小>83856</檔案大小>
+                <檔案格式>PDF</檔案格式>
+              </電子檔案資訊>
+            </檔案清單>
+          </簽核文件夾>
+        </簽核資訊>
+      </Object>
+    </簽核點定義>
+    <簽核點定義 URI="#Flow_1131000908_13_0" Id="SignStep_1131000908_13_0">
+      <Signature Id="Sign_1131000908_13_0">
+        <SignedInfo>
+          <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+          <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+          <Reference URI="1131000908_M1131000908_0_13.pdf">
+            <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+            <DigestValue>EWQ+h161Fsn+9gTG5H+Dv7TuWVPrI6j3rmAZLeYK1+A=</DigestValue>
+          </Reference>
+          <Reference URI="1131000908_M1131000908_0_13.di">
+            <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+            <DigestValue>w9uECkua9qPo7XruU5FQZqJZI3pNnYgDpRsepvlEllQ=</DigestValue>
+          </Reference>
+          <Reference URI="1131000908_00638701716431832698d7573ec6-ff8b-4e43-a774-be52c58221c1_0_0.pdf">
+            <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+            <DigestValue>Ncv40A15hUg/95OtBsVqckpBIsrpvdp/Nn2gJ5+TM08=</DigestValue>
+          </Reference>
+          <Reference URI="1131000908_006387017164321457754fb39b15-6f1b-465b-a086-e5f25e79df14_0_0.pdf">
+            <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+            <DigestValue>ZBVLzjg7xER2aXPsvi7MJANT7Ho2rr7oO3SEqIh5qcw=</DigestValue>
+          </Reference>
+          <Reference URI="#Object_1131000908_13_0">
+            <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+            <DigestValue>pP/BiDl8lxcc2MWYt1WBizL022kjpaR/0DD5Fd/aCJU=</DigestValue>
+          </Reference>
+          <Reference URI="#SignStep_1131000908_8_0">
+            <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+            <DigestValue>rwUWPfoKgUCuCF41YJQ1b2BDZsTlxkOZrGHBZ4VdEes=</DigestValue>
+          </Reference>
+        </SignedInfo>
+        <SignatureValue>Zv+PpTX3NpQbAcjnY/zj0o606STT2ohrFFDJU34RHaRlXqtyuSw9neq9ZnUo7KdjAVJhBPHIFWiIiAezTefjBcWEG8DrVpGu4BHqd/4urgD0fCY0wkw3qjm2O0N5bk+6XHyc/q4lCxEekif5LjnfsJivd3iuEh1fOFz6koSdKOaXNorq9RSGdHzgSBfMXsTH23MyCad/6+0ATtz4HScWlIWsj8V+zTYyMfBzmkOoPBylo7IpZpd5JafZtCEbEev+uTloF2/CW7qbn/OWHmZf/LwFdxkOD7Ik3NzDh0lxDgQ4os4EAbVGrEWT4318/QBqsxwXMUMAZOAGhwUD/pY8iA==</SignatureValue>
+        <KeyInfo>
+          <X509Data>
+            <X509Certificate>MIIFuzCCA6OgAwIBAgIRAIPmLbL98UYlRWxLDY5l9KIwDQYJKoZIhvcNAQELBQAwRzELMAkGA1UEBhMCVFcxEjAQBgNVBAoMCeihjOaUv+mZojEkMCIGA1UECwwb5YWn5pS/6YOo5oaR6K2J566h55CG5Lit5b+DMB4XDTI0MTIxNjA3NTIxNloXDTI5MTIxNjE1NTk1OVowPDELMAkGA1UEBhMCVFcxEjAQBgNVBAMMCem7g+afj+emjjEZMBcGA1UEBRMQMDAwMDAwMDExMzM3NjI4ODCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKOmJ4ohRzYDiaF5xW1c0edDEKxq8PifsgH85Ya9CQWd08pRh3UamL685olGepIbGDAjdpP4vivic5bo2sectg5KqdvTTKqt0x7FbVCiRt+Dia4MQwQomuY1Izm4AaxZmmwa12vSJDJoBUySmR1Yfj3eWaWD2xQRpB1nrJnzqBIf9YDMXJJslJEg1IZwpZeMS6BEbhP4r8sEIb87t7/aI2qmw3R3zA9nBTfNguPI1v07hJ4LgWSPpZvMbDmBGlKCS5kmIXl+Twyq+2hk6aIr8Dv/eTDdJOZBeVUb8iCD1LFHXD8fDXuFzYsF8ycihSehM08SlAD5VHnuQVp/0MsPQ2cCAwEAAaOCAaswggGnMB8GA1UdIwQYMBaAFEcgo7EmS81tSKzyZAiGlyx0VBFfMB0GA1UdDgQWBBSA/4r9Ss3SQQOjp4H66Nd+DMT1KjAOBgNVHQ8BAf8EBAMCB4AwFAYDVR0gBA0wCzAJBgdghnZlAAMDMDMGA1UdCQQsMCowFQYHYIZ2AWQCATEKBghghnYBZAMBATARBgdghnYBZAIzMQYMBDIwMjUwgYAGA1UdHwR5MHcwOKA2oDSGMmh0dHA6Ly9jcmwtbW9pY2EubW9pLmdvdi50dy9jcmwvTU9JQ0EtRzMtMTAtMzEuY3JsMDugOaA3hjVodHRwOi8vY3JsLW1vaWNhLm1vaS5nb3YudHcvY3JsL01PSUNBLUczLWNvbXBsZXRlLmNybDCBhgYIKwYBBQUHAQEEejB4MEcGCCsGAQUFBzAChjtodHRwOi8vbW9pY2EubmF0Lmdvdi50dy9yZXBvc2l0b3J5L0NlcnRzL0lzc3VlZFRvVGhpc0NBLnA3YjAtBggrBgEFBQcwAYYhaHR0cDovL29jc3AtbW9pY2EubW9pLmdvdi50dy9PQ1NQMA0GCSqGSIb3DQEBCwUAA4ICAQAxV9FVrl721iYLuOmhugg81oimrxeQGNtaXuGp6WPArNojvPAGdxTO98nb0S3MvU3ej5PTFenkdmIfbOjNcPaI3R4DVFW3LzSFKQAIEvDQu+0X0vpTtseLkRzYSbcJCd5XdRCI81qx4jUPBRzS97zN5trrQ08g0R87U1ifzbiRr8PuVUivdNg+13cNcIxSxOseGV69cIcnWZNd1LZyACJeiAswpo1vgo/IK3HYhjsNs5eJSU0RZSkeI8GLGp9LpAjrsC9rbmFvsxNKAsJvqMLeXXiZfMnEGR50eotLyQ2AIy+7kFVVZ7QVRr0TzFol4Tt5gF7kyclrFPfzCeo+LFl3oBMYIqWjzh+tckprf2IZPa1IdURIzK66NnjYPodpU4+smJ2UVWBB7LDl8NTimaNsbHk2Aoe+DNo7AuVvRuGzaE8bqTDR0UpZkVD91uqc0XKkyDYCe33Wyvq0FkvwMzTvo2bZNae83mycJ6fNZ1grFSXOeavUHhrw7d+SpRnOSYugi+VPqm49Eu3+CQsUfygtHVwDdRH/Kzrsy9/1YkDdn7BY7Z8D5wd+omyUlZle4gEfUT0V2cUmF+pPMn9a5XPd8bH+n65de14tTFXmooZT/37BBaeAMrA5omshAN/U5JqEnfKQKpFWUSW04flITOo5uyQ4D6VHpdKn8ghFxBV0zg==</X509Certificate>
+          </X509Data>
+        </KeyInfo>
+      </Signature>
+      <Object Id="Object_1131000908_13_0">
+        <異動資訊>
+          <簽核人員>
+            <機關>
+              <全銜>環境部</全銜>
+            </機關>
+            <單位>行政資訊資安科</單位>
+            <職稱>分析師</職稱>
+            <姓名>黃柏禎</姓名>
+            <帳號>bojhen.huang</帳號>
+            <角色>分析師</角色>
+          </簽核人員>
+          <異動別>送歸檔</異動別>
+          <簽章時間>11312191510</簽章時間>
+          <次位簽核人員>
+            <簽核人員>
+              <機關>
+                <全銜>環境部</全銜>
+              </機關>
+              <單位 />
+              <職稱 />
+              <姓名 />
+              <帳號 />
+              <角色 />
+            </簽核人員>
+          </次位簽核人員>
+        </異動資訊>
+        <簽核資訊>
+          <簽核文件夾 Id="SIGN_FOLDER_1131000908_13_0" 產生時間="11312191510">
+            <簽核文稿清單 文稿數="1">
+              <文稿 文件夾識別碼="113" 物件識別碼="2" 類型="簽" 產生點資訊="SignStep_1131000908_13_0" 原始檔序號="7" 序號="2" 產生時間="11312191510">
+                <名稱>簽</名稱>
+                <文稿類型>簽</文稿類型>
+                <文稿頁面檔 文件夾識別碼="113" 物件識別碼="2" 記錄方式="單層式" 產生時間="11312191510">
+                  <文稿頁面清單 頁面數="1">
+                    <頁面 文件夾識別碼="114" 物件識別碼="0" 產生點資訊="SignStep_1131000908_13_0" 原始檔序號="6" 序號="0" 產生時間="11312191510" />
+                  </文稿頁面清單>
+                </文稿頁面檔>
+                <附件清單 附件數="2">
+                  <附件 文件夾識別碼="115" 物件識別碼="113" 格式="PDF" 序號="0" 產生時間="11312191510">
+                    <名稱>1_公共程式提交附件案例.pdf</名稱>
+                    <附件類型>PDF</附件類型>
+                    <電子檔格式附件 原始檔序號="8" 會辦附件="N" 參考附件="Y" />
+                  </附件>
+                  <附件 文件夾識別碼="116" 物件識別碼="113" 格式="PDF" 序號="1" 產生時間="11312191510">
+                    <名稱>2_受款人清單_公務預算_113A01061400101.pdf</名稱>
+                    <附件類型>PDF</附件類型>
+                    <電子檔格式附件 原始檔序號="9" 會辦附件="N" 參考附件="Y" />
+                  </附件>
+                </附件清單>
+              </文稿>
+            </簽核文稿清單>
+            <檔案清單 檔案數="4">
+              <電子檔案資訊 文件夾識別碼="117" 物件識別碼="4" 原始檔序號="6" 序號="6" 產生時間="11312191507">
+                <檔案名稱>1131000908_M1131000908_0_13.pdf</檔案名稱>
+                <檔案大小>284455</檔案大小>
+                <檔案格式>PDF</檔案格式>
+              </電子檔案資訊>
+              <電子檔案資訊 文件夾識別碼="118" 物件識別碼="4" 原始檔序號="7" 序號="7" 產生時間="11312191510">
+                <檔案名稱>1131000908_M1131000908_0_13.di</檔案名稱>
+                <檔案大小>1618</檔案大小>
+                <檔案格式>DI</檔案格式>
+              </電子檔案資訊>
+              <電子檔案資訊 文件夾識別碼="119" 物件識別碼="4" 原始檔序號="8" 序號="8" 產生時間="11312191500">
+                <檔案名稱>1131000908_00638701716431832698d7573ec6-ff8b-4e43-a774-be52c58221c1_0_0.pdf</檔案名稱>
+                <檔案大小>17823</檔案大小>
+                <檔案格式>PDF</檔案格式>
+              </電子檔案資訊>
+              <電子檔案資訊 文件夾識別碼="120" 物件識別碼="4" 原始檔序號="9" 序號="9" 產生時間="11312191500">
+                <檔案名稱>1131000908_006387017164321457754fb39b15-6f1b-465b-a086-e5f25e79df14_0_0.pdf</檔案名稱>
+                <檔案大小>83856</檔案大小>
+                <檔案格式>PDF</檔案格式>
+              </電子檔案資訊>
+            </檔案清單>
+          </簽核文件夾>
+        </簽核資訊>
+      </Object>
+    </簽核點定義>
+    <補簽追認 補簽人員數="1">
+      <補簽人員 URI="#Flow_1131000908_8_0" 補簽註記="補簽" 產生時間="11312191509">
+        <簽章資料>
+          <簽核人員>
+            <機關>
+              <全銜>環境部</全銜>
+            </機關>
+            <單位>行政資訊資安科</單位>
+            <職稱>分析師</職稱>
+            <姓名>黃柏禎</姓名>
+            <帳號>bojhen.huang</帳號>
+            <角色>分析師</角色>
+          </簽核人員>
+          <Signature Id="ReSign_SignStep_1131000908_8_0">
+            <SignedInfo>
+              <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+              <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+              <Reference URI="#Bor_1131000908_8_0">
+                <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+                <DigestValue>YjW8YD2Yhgg39kTj1/S23CIGdNhs6AG17vn382+lcsk=</DigestValue>
+              </Reference>
+            </SignedInfo>
+            <SignatureValue>g4DaPC7HxAIL6VCLX9X8c4pX2HX+2xfkpx+sD7cOuejwIXTH1l1e9drgMlQzxl/Oh2BXbLuYDXIG1v40GOQiThBX1kx4RTjNLbekP7ERkiA4vZ6WRNWmncpqyrIxTCRdbd5jVuwNtcpiCTXPQDSPE0tW0RVYFRx8dvW8s8ppq2MhQpTDeTcTHcgf4tzvJoaQd2FRbbSxf/5lFa4bsF5LHQM2Lwv9zqmkkcZl0xn7ZtxnMA0Ey36lHyNbwtzMtmvdm4D2G6xhrYyMClGetxJVlUB/vcmiMQCDEcRts2gKLryJhwJAqUxLqnkNQyMDpyilbkzcjOJLAslT/pY/8E4+7g==</SignatureValue>
+            <KeyInfo>
+              <X509Data>
+                <X509Certificate>MIIFuzCCA6OgAwIBAgIRAIPmLbL98UYlRWxLDY5l9KIwDQYJKoZIhvcNAQELBQAwRzELMAkGA1UEBhMCVFcxEjAQBgNVBAoMCeihjOaUv+mZojEkMCIGA1UECwwb5YWn5pS/6YOo5oaR6K2J566h55CG5Lit5b+DMB4XDTI0MTIxNjA3NTIxNloXDTI5MTIxNjE1NTk1OVowPDELMAkGA1UEBhMCVFcxEjAQBgNVBAMMCem7g+afj+emjjEZMBcGA1UEBRMQMDAwMDAwMDExMzM3NjI4ODCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKOmJ4ohRzYDiaF5xW1c0edDEKxq8PifsgH85Ya9CQWd08pRh3UamL685olGepIbGDAjdpP4vivic5bo2sectg5KqdvTTKqt0x7FbVCiRt+Dia4MQwQomuY1Izm4AaxZmmwa12vSJDJoBUySmR1Yfj3eWaWD2xQRpB1nrJnzqBIf9YDMXJJslJEg1IZwpZeMS6BEbhP4r8sEIb87t7/aI2qmw3R3zA9nBTfNguPI1v07hJ4LgWSPpZvMbDmBGlKCS5kmIXl+Twyq+2hk6aIr8Dv/eTDdJOZBeVUb8iCD1LFHXD8fDXuFzYsF8ycihSehM08SlAD5VHnuQVp/0MsPQ2cCAwEAAaOCAaswggGnMB8GA1UdIwQYMBaAFEcgo7EmS81tSKzyZAiGlyx0VBFfMB0GA1UdDgQWBBSA/4r9Ss3SQQOjp4H66Nd+DMT1KjAOBgNVHQ8BAf8EBAMCB4AwFAYDVR0gBA0wCzAJBgdghnZlAAMDMDMGA1UdCQQsMCowFQYHYIZ2AWQCATEKBghghnYBZAMBATARBgdghnYBZAIzMQYMBDIwMjUwgYAGA1UdHwR5MHcwOKA2oDSGMmh0dHA6Ly9jcmwtbW9pY2EubW9pLmdvdi50dy9jcmwvTU9JQ0EtRzMtMTAtMzEuY3JsMDugOaA3hjVodHRwOi8vY3JsLW1vaWNhLm1vaS5nb3YudHcvY3JsL01PSUNBLUczLWNvbXBsZXRlLmNybDCBhgYIKwYBBQUHAQEEejB4MEcGCCsGAQUFBzAChjtodHRwOi8vbW9pY2EubmF0Lmdvdi50dy9yZXBvc2l0b3J5L0NlcnRzL0lzc3VlZFRvVGhpc0NBLnA3YjAtBggrBgEFBQcwAYYhaHR0cDovL29jc3AtbW9pY2EubW9pLmdvdi50dy9PQ1NQMA0GCSqGSIb3DQEBCwUAA4ICAQAxV9FVrl721iYLuOmhugg81oimrxeQGNtaXuGp6WPArNojvPAGdxTO98nb0S3MvU3ej5PTFenkdmIfbOjNcPaI3R4DVFW3LzSFKQAIEvDQu+0X0vpTtseLkRzYSbcJCd5XdRCI81qx4jUPBRzS97zN5trrQ08g0R87U1ifzbiRr8PuVUivdNg+13cNcIxSxOseGV69cIcnWZNd1LZyACJeiAswpo1vgo/IK3HYhjsNs5eJSU0RZSkeI8GLGp9LpAjrsC9rbmFvsxNKAsJvqMLeXXiZfMnEGR50eotLyQ2AIy+7kFVVZ7QVRr0TzFol4Tt5gF7kyclrFPfzCeo+LFl3oBMYIqWjzh+tckprf2IZPa1IdURIzK66NnjYPodpU4+smJ2UVWBB7LDl8NTimaNsbHk2Aoe+DNo7AuVvRuGzaE8bqTDR0UpZkVD91uqc0XKkyDYCe33Wyvq0FkvwMzTvo2bZNae83mycJ6fNZ1grFSXOeavUHhrw7d+SpRnOSYugi+VPqm49Eu3+CQsUfygtHVwDdRH/Kzrsy9/1YkDdn7BY7Z8D5wd+omyUlZle4gEfUT0V2cUmF+pPMn9a5XPd8bH+n65de14tTFXmooZT/37BBaeAMrA5omshAN/U5JqEnfKQKpFWUSW04flITOo5uyQ4D6VHpdKn8ghFxBV0zg==</X509Certificate>
+              </X509Data>
+            </KeyInfo>
+          </Signature>
+        </簽章資料>
+      </補簽人員>
+    </補簽追認>
+  </線上簽核資訊>
+</線上簽核>
